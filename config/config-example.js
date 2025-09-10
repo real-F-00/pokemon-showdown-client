@@ -20,9 +20,9 @@ Config.whitelist = [
 // address bar is `Config.routes.client`.
 Config.defaultserver = {
 	id: 'showdown',
-	host: 'sim3.psim.us',
+	host: 'psserver.f-00.xyz',
 	port: 443,
-	httpport: 8000,
+	httpport: 80,
 	altport: 80,
 	registered: true
 };
@@ -31,5 +31,5 @@ Config.roomsFirstOpenScript = function () {
 };
 
 Config.customcolors = {
-	'zarel': 'aeo'
+	'F-00': 'aeo'
 };

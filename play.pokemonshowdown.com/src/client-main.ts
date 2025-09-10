@@ -150,10 +150,10 @@ class PSPrefs extends PSStreamModel<string | null> {
 	onepanel: boolean | 'vertical' = false;
 	timestamps: { chatrooms?: TimestampOptions, pms?: TimestampOptions } = {};
 
-	mute = false;
-	effectvolume = 50;
-	musicvolume = 50;
-	notifvolume = 50;
+	mute = true;
+	effectvolume = 0;
+	musicvolume = 0;
+	notifvolume = 0;
 	uploadprivacy = false;
 
 	afd: boolean | 'sprites' = false;
